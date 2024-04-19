@@ -13,12 +13,12 @@ public class VotingAge {
 			System.out.println("The Person age must be 18 or 18 above for voting");
 		}
 	}
-}
 
-/*
- * void isNumberEvenOrOdd() { int number = 8; if(number % 2==0) {
- * System.out.println("The number is Even"); }else {
- * System.out.println("The number is Odd"); }
- * 
- * }
- */
+	/*
+	 * void isNumberEvenOrOdd() { int number = 8; if(number % 2==0) {
+	 * System.out.println("The number is Even"); }else {
+	 * System.out.println("The number is Odd"); }
+	 * 
+	 * }
+	 */
+}

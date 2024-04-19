@@ -9,6 +9,7 @@ public class MainVoting {
 		va.isPersonCitizen = "citizen";
 		va.personAge = 19;
 		va.isPersonAbleToVote();
+
 		
 	}
 
