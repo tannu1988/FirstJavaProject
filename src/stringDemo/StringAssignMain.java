@@ -26,16 +26,14 @@ public class StringAssignMain {
 		String removeFirstLastWord=stra.word(enteredWord);
 		System.out.println(removeFirstLastWord);
 		//prefix
-		System.out.println("Enter a word: ");
-		String enterword=sc.next();
 		System.out.println("enter start with word: ");
 		String startWith=sc.next();
-		boolean prefix=stra.word(enterword, startWith);
+		boolean prefix=stra.word(enteredWord, startWith);
 		System.out.println(prefix);
 		//Suffix
 		System.out.println("enter end word: ");
 		String endWith=sc.next();
-		boolean sufix=stra.prefixAndSufix(enterword, endWith);
+		boolean sufix=stra.prefixAndSufix(enteredWord, endWith);
 		System.out.println(sufix);
 		//print city from string
 		String returnCity=stra.printCity(" [Last Day!] Beer Festival[Munich]");

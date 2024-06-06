@@ -3,11 +3,11 @@ package comparison;
 public class VotingAge {
 
 	int personAge;
-	int votingAge = 18;
+	final int votingAge = 18;
 	String isPersonCitizen;
 
 	void isPersonAbleToVote() {
-		if (personAge >= 18 && isPersonCitizen == "citizen") {
+		if (personAge >= votingAge && isPersonCitizen == "citizen") {
 			System.out.println("The person eligible for voting");
 		} else {
 			System.out.println("The Person age must be 18 or 18 above for voting");

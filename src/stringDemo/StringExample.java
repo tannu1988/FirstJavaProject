@@ -7,11 +7,11 @@ import java.util.Arrays;
 public class StringExample {
 
 	public static void main(String[] args) {
-//
-//		String name = "SwaroopKrishna";
-//		char[] characterArray = name.toCharArray();
-//
-//		System.out.println(Arrays.toString(characterArray));
+
+		String name = "SwaroopKrishna";
+		char[] characterArray = name.toCharArray();
+
+		System.out.println(Arrays.toString(characterArray));
 //
 //		String firstAndLastName = "Rajinder Kaur";
 //		String[] nameArray = firstAndLastName.split(" ");
@@ -52,16 +52,14 @@ public class StringExample {
 //		if (!isCityACapital) {
 //			System.out.println("This is not a capital city");
 //		}
-		
-		
 		String[] numberSyllables={"buf-fet","beau-ti-ful","mon-u-men-tal","on-o-mat-o-poe-ia"};
 		for( int i=0;i<=numberSyllables.length;i++) {
 	   if(numberSyllables[i].contains("-")) {
 		   System.out.println((numberSyllables[i].split("-").length));
-		   
+	   } 
 	   }
 	   
-		}
+		
 //		
 //		
 
